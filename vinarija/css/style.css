@@ -1,0 +1,340 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	src: url("../fonts/FiraSans-Light.ttf");
+	font-family:FL;
+}
+@font-face{
+	src: url("../fonts/FiraSans-LightItalic.ttf");
+	font-family:FLI;
+}
+
+
+body{
+	font-family: FL;
+	color: #fff8f0;
+	background-color: #fff8f0;
+}
+.cleaner{
+	clear: both;
+}
+a {
+	text-decoration: none;
+	color: #fff8f0;
+}
+a:hover{
+	color: #92140c;
+}
+ul {
+	list-style-type: none;
+}
+#zaglavlje {
+	background-color: #1e1e24;
+	width: 100%;
+}
+
+#logo {
+	
+	font-family: FL;
+	height: 40px;
+	float: left;
+	margin: 10px 15%;
+}
+#navigacija {
+	float: right;
+	margin: 20px 15%;
+}
+#navigacija ul li {
+	display: inline;
+	margin: 10px;
+}
+
+#navigacija ul li a {
+	text-transform: uppercase;
+}
+#cover-slika{
+	width: 100%;
+	height: 1080px;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+						url("../img/cover-slika.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+#naslov-docek{
+	color: #C9A24D;
+	padding-top: 6%;
+	font-family:FLI;
+	font-size: 70px;
+	text-align: center;
+}
+#slogan{
+	font-size: 30px;
+}
+
+.navigatori{
+		background-color: rgba(0, 0, 0, 0.7);
+		font-size: 20px;
+		padding: 40px 60px;
+		display: inline-block;
+		margin-top: 10%;
+		border: 4px solid #C9A24D;
+		border-radius: 30px;
+}
+.levo{
+	float:left;
+}
+.desno{
+	float:right;
+}
+.leva-margina{
+	margin-left: 25%;
+}
+.desna-margina{
+		margin-right: 25%;
+}
+#blok-izdvajamo{
+	background-color: #1e1e24;
+	width:100%;
+	height:650px;
+		border-style:double;
+		border-color:#C9A24D;
+		border-width:10px 0px;
+}
+#xo-slika-okvir{
+	float:right;
+	margin: 5% 15% 5% 3%;
+}
+#xo-slika{
+	width:671px;
+	border: 3px solid #C9A24D;
+	border-radius: 30px;
+}
+
+#vinjak-xo-naslov{
+	border-style: double ;
+	border-color:#C9A24D;
+	border-width:	0px 0px 4px 0px;
+	
+	font-family:FLI;
+	font-size: 30px;
+	margin-right: 50%;
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.crveni-font{
+	color: #92140c;
+}
+#tekst-opisa-xo{
+	margin: 2% 2% 0% 15%;
+	font-size: 20px;
+	text-align: justify;
+}
+#o-nama-strana{
+	padding-top: 2%;
+	background-image:
+	linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+	url("../img/pozadina-c.jpg");
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	width:100%;
+
+}
+
+#o-nama-naslov-okvir{
+	border-style: double ;
+	border-color:#C9A24D;
+	border-width:	0px 0px 4px 0px;
+		font-family:FLI;
+		font-size: 30px;
+		text-align: center;
+	margin: 0px 20%;
+}
+
+#o-nama-slika-okvir{
+	float:left;
+	border: 4px solid #C9A24D;
+	border-radius: 30px;
+	margin: 10% 2% 10% 25%;
+}
+	#o-nama-slika{
+		border-radius: 30px;
+		width:320px;
+}
+	
+	
+#o-nama-tekst-okvir{
+		background-color: rgba(0, 0, 0, 0.7);
+		border: 4px solid #C9A24D;
+		border-radius: 30px;	
+		font-family:FL;
+		font-size: 20px;
+		text-align: justify;
+		padding:1%;
+		float:right;
+		margin: 10% 25% 10% 2%;
+		width:22%;
+}
+#proizvodi-sekcija {
+		width: 100%;
+		height:650px;
+		background-color: #1e1e24;
+		border-style:double;
+		border-color:#C9A24D;
+		border-width:10px 0px;		
+		text-align: center;
+	
+
+}
+
+#proizvodi-sekcija h6{
+	font-family:FLI;
+	font-size: 30px;
+	margin: 2% 40%;
+	text-align: center;
+	border-style: double ;
+	border-color:#C9A24D;
+	border-width:	0px 0px 4px 0px;
+
+	
+}
+
+#proizvodi-grid {
+	margin: 0px 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.karta-proizvoda img{
+	width:30%;
+	border-radius: 30px;
+	
+}
+
+.info-proizvoda{
+		font-size: 20px;
+}
+.info-proizvoda p {
+	background-color: #92140c;
+	width:39%;
+	margin: 0% 30%;
+		border-radius: 30px;
+	
+}
+
+.info-proizvoda span {
+	border-style: double ;
+	border-color:#C9A24D;
+	border-width:	0px 0px 4px 0px;
+	
+	
+}
+
+.footer{
+	width: 100%;
+	height: 350px;
+	background-color: #1e1e24;
+
+}
+
+.footer-deo{
+	width: 10%;
+	float: left;
+	display: inline;
+	margin: 2% 0% 2% 18%;
+}
+
+.footer-deo ul li span{
+	font-family:FL;
+	font-size: 30px;
+	text-align: center;
+	border-style: double ;
+	border-color:#C9A24D;
+	border-width:	0px 0px 4px 0px;
+
+}
+
+.footer-deo ul li{
+	margin-top: 15%;
+}
+
+.drugastr-sekcija{
+	width: 100%;
+	height: 640px;
+	background-color: #1e1e24;
+	background-color: #1e1e24;
+		border-style:double;
+		border-color:#C9A24D;
+		border-width:10px 0px;
+}
+
+.kontaktinfo{
+
+	margin-top:7%;
+	display: inline;
+
+
+	
+	
+}
+
+.kontaktinfo li span{
+    font-family:FL;
+	font-size: 40px;
+	text-align: center;
+	border-style: double ;
+	border-color:#C9A24D;
+	border-width:	0px 0px 4px 0px;
+	background-color: #92140c;
+	border-radius: 10px;
+	padding:10px;
+
+}
+
+.kontaktinfo li{
+
+	font-family:FL;
+	font-size: 30px;
+
+	margin-top: 5%;
+
+}
+
+#autor-slika {
+	width: 224px;
+	margin-top: 5%;
+}
+
+#autor-slika img{
+	border-radius: 30px;
+}
+#autor-biografija{
+	width: 30%;
+	margin-top: 10%;
+	font-family:FL;
+	font-size: 20px;
+	text-align: left;
+	border-style: double ;
+	border-color:#C9A24D;
+	border-width:	0px 0px 4px 4px;
+	border-radius: 10px;
+	padding:10px;
+}
+
+#autor-biografija span{
+	background-color:#92140c;
+	border-radius: 10px;
+	padding:4px;
+
+}
+#autor-biografija p{
+	margin-top:10px;
+
+}
